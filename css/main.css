@@ -24,10 +24,6 @@ body {
     font-size: 18px;
     color: #FFF;
     transition: background color 0.2s ease-in, top 0.2s ease-in;
-    -webkit-transition: background color 0.2s ease-in, top 0.2s ease-in;
-    -moz-transition: background color 0.2s ease-in, top 0.2s ease-in;
-    -ms-transition: background color 0.2s ease-in, top 0.2s ease-in;
-    -o-transition: background color 0.2s ease-in, top 0.2s ease-in;
 }
 
 .btn:hover, .btn:focus {
@@ -86,10 +82,6 @@ body {
     height: 8px;
     background-color: #FDA300;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 
 }
 
@@ -135,12 +127,16 @@ body {
 }
 
 /* SERVICES */
+
+
 .services {
 
 
 }
 
 .services-row {
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
     column-gap: 30px;
 }
@@ -209,7 +205,7 @@ body {
     text-decoration: underline;
 }
 
-/*  FOOOOOOOOTER    */
+/*     FOOOOOOOOTER    */
 
 
 .contacts {
