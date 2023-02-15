@@ -12,6 +12,47 @@ body {
     margin: 0 auto;
 } 
 
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 18px;
+    color: #FFF;
+    transition: background color 0.2s ease-in, top 0.2s ease-in;
+    -webkit-transition: background color 0.2s ease-in, top 0.2s ease-in;
+    -moz-transition: background color 0.2s ease-in, top 0.2s ease-in;
+    -ms-transition: background color 0.2s ease-in, top 0.2s ease-in;
+    -o-transition: background color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #606060;
+
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+
+
+}
+
+
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+
+
+}
+/*  Header   */
+
 .header {
     background-color: #F1F1F1;
     padding-top: 46px;
@@ -100,9 +141,10 @@ body {
 }
 
 .services-row {
-
-
+    display: flex;
+    column-gap: 30px;
 }
+
 .service-card {
 
 
@@ -114,6 +156,7 @@ body {
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 24px;
+    text-transform: uppercase;
 
 }
 
@@ -121,5 +164,95 @@ body {
 .service-card p {
     font-size: 14px;
     line-height: 2;
-    
+
+}
+
+
+
+/* PORTFOLIO */
+
+
+
+.portfolio {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+
+}
+
+.portfolio-title {
+    text-align: center;
+
+
+}
+
+.project {
+    text-align: center;
+
+
+}
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40;
+
+}
+
+.project-title {
+    font-size: 18px;
+
+
+}
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+/*  FOOOOOOOOTER    */
+
+
+.contacts {
+    text-align: center;
+    padding: 90px 0;
+
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+
+}
+
+.contacts-content {
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+.contacts-content p + p {
+
+    margin-top: 1em;
+
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+
+
+}
+
+
+
+.contacts-social {
+    display:flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.contacts-footer {
+    color: #828282;
+
+
 }
