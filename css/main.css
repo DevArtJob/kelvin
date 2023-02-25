@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import "./reset.css";
+
 body {
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
+
 /*  Header   */
 
 .container {
     max-width: 1230px;
     padding: 0 30px;
     margin: 0 auto;
-} 
+}
 
 .btn {
     display: inline-block;
@@ -26,7 +28,8 @@ body {
     transition: background color 0.2s ease-in, top 0.2s ease-in;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: #606060;
 
 }
@@ -47,6 +50,7 @@ body {
 
 
 }
+
 /*  Header   */
 
 .header {
@@ -59,7 +63,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 76px;
-    
+
 }
 
 .logo {
@@ -72,6 +76,7 @@ body {
 
 
 }
+
 .logo::after {
     position: absolute;
     right: 0;
@@ -94,6 +99,7 @@ body {
 
 
 }
+
 .nav-button {
     display: none;
 }
@@ -109,8 +115,9 @@ body {
 }
 
 .header-row {
-    display: flex;justify-content: space-between;
-    column-gap: 30px; 
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
 
 .header-heading {
@@ -132,9 +139,7 @@ body {
 /* SERVICES */
 
 
-.services {
-
-}
+.services {}
 
 .services-row {
     padding-top: 90px;
@@ -201,7 +206,8 @@ body {
 
 
 }
-.project + .project {
+
+.project+.project {
     margin-top: 90px;
 }
 
@@ -215,6 +221,7 @@ body {
 
 
 }
+
 .project-title a {
     color: #000;
     text-decoration: underline;
@@ -239,7 +246,8 @@ body {
     font-size: 18px;
 
 }
-.contacts-content p + p {
+
+.contacts-content p+p {
 
     margin-top: 1em;
 
@@ -247,14 +255,12 @@ body {
 
 .contacts-button {
     margin-bottom: 80px;
-
-
 }
 
 
 
 .contacts-social {
-    display:flex;
+    display: flex;
     justify-content: center;
     column-gap: 60px;
     align-items: center;

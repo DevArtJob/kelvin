@@ -18,7 +18,7 @@
 
         z-index: 1;
 
-        padding: 46px  30px ;
+        padding: 46px 30px;
         display: flex;
         flex-direction: column;
         row-gap: 40px;
@@ -44,6 +44,7 @@
         right: 30px;
 
     }
+
     .nav-open .nav-button {
         position: fixed;
     }
@@ -55,7 +56,7 @@
     .header-row {
         flex-direction: column;
         row-gap: 20px;
-         
+
     }
 
 
@@ -94,7 +95,7 @@
 
     .services {
 
-    padding: 60px 0;
+        padding: 60px 0;
 
     }
 
@@ -117,7 +118,7 @@
         margin-bottom: 30px;
     }
 
-    .project + .project {
+    .project+.project {
 
         margin-top: 55px;
     }
@@ -142,8 +143,9 @@
     .contacts-button {
 
         margin-bottom: 70px;
-    
+
     }
+
     .contacts-social {
 
         column-gap: 50px;
