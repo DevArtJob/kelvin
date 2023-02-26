@@ -1,4 +1,3 @@
-AOS.init();
 
 
 const nav = document.querySelector('#nav');
@@ -13,3 +12,5 @@ navBtn.onclick = () => {
 
     }
 }
+
+AOS.init();
